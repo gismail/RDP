@@ -42,10 +42,10 @@ public class Main {
 		t1.addEntree(a1);
 		t1.addSortie(a2);
 		t1.addSortie(a3);
+
+		t2.addSortie(a6);
 		t2.addEntree(a4);
 		t2.addEntree(a5);
-		t2.addSortie(a6);
-
 		for (Noeud n : rdp.getNoueds()) {
 			n.affichEntSor();
 		}
