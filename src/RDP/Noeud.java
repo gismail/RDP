@@ -8,6 +8,7 @@ public abstract class Noeud {
 	protected String label;
 
 	public String getLabel() {
+		//SMAIL YASSER
 		return label;
 		//une autre modification dans le server where you can import to your project .
 	}
