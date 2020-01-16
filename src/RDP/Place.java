@@ -1,5 +1,5 @@
 package RDP;
-
+//SMAIL gourmi
 public class Place extends Noeud {
 	private int marq;
 
