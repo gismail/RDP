@@ -9,6 +9,7 @@ public abstract class Noeud {
 
 	public String getLabel() {
 		return label;
+		//une autre modification dans le server where you can import to your project .
 	}
 
 	public void setLabel(String label) {
@@ -46,9 +47,9 @@ public abstract class Noeud {
 			System.out.println(a.getLabel());
 		}
 		if (this instanceof Place)
-			System.out.println("Les sortées de la palce " + this.getLabel() + " sont : ");
+			System.out.println("Les sortÃ©es de la palce " + this.getLabel() + " sont : ");
 		else 
-			System.out.println("Les sortées de la transition " + this.getLabel() + " sont : ");
+			System.out.println("Les sortÃ©es de la transition " + this.getLabel() + " sont : ");
 		for (Arc a : getSortie()) {
 			System.out.println(a.getLabel());
 		}
