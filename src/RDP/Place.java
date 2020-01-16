@@ -1,5 +1,4 @@
 package RDP;
-//SMAIL gourmi
 public class Place extends Noeud {
 	private int marq;
 
@@ -7,6 +6,7 @@ public class Place extends Noeud {
 	public Place(String label, int marq) {
 		super.label="P"+label;
 		this.marq = marq;
+		// you should add this to the part where you can 
 	}
 
 	public int getMarq() {
